@@ -47,6 +47,7 @@ out/
 coverage/
 
 # Firebase
+/.firebase/
 .firebase/
 .firebase/*
 *.cache
