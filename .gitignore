@@ -45,3 +45,23 @@ out/
 .env.local
 .env
 coverage/
+
+# Firebase
+.firebase/
+.firebase/*
+*.cache
+firebase-debug.log*
+firebase-debug.*.log*
+ui-debug.log
+.runtimeconfig.json
+
+# Firebase service account keys (if downloaded locally)
+*-firebase-adminsdk-*.json
+firebase-service-account.json
+
+# Documentation files (except README.md)
+*.md
+!README.md
+
+# Temporary files
+tmp_*
