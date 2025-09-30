@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# Run security checks first
+.husky/pre-commit-security
+
+# Run linting and formatting
 npx lint-staged
