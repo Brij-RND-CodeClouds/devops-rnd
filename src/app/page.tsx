@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl mb-4">Firestore Demo</h1>
+      <h1 className="text-2xl mb-4">Firestore Demo app</h1>
       <div className="mb-4">
         <input
           type="text"
@@ -41,7 +41,7 @@ export default function Home() {
           placeholder="Add item"
         />
         <button onClick={handleAddItem} className="bg-blue-500 text-white p-2">
-          Add
+          Add Item
         </button>
       </div>
       <ul>
