@@ -21,7 +21,7 @@ describe('Home Page', () => {
     });
 
     const input = screen.getByPlaceholderText('Add item');
-    const button = screen.getByText('Add');
+    const button = screen.getByText('Add Item');
 
     await act(async () => {
       fireEvent.change(input, { target: { value: 'New Item' } });
