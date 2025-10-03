@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl mb-4">Firestore Demo app with devops</h1>
+      <h1 className="text-2xl mb-4">List of the Items</h1>
       <div className="mb-4">
         <input
           type="text"
