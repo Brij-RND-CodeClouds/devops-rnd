@@ -1,5 +1,9 @@
+echo "Running pre-commit hooks..."
+echo "Step 1: Running security checks..."
 # Run security checks first
 .husky/pre-commit-security
 
+echo "Step 2: Running linter and formatter on staged files..."
 # Run linting and formatting
 npx lint-staged
+echo "Pre-commit checks passed!"
