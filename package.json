@@ -11,6 +11,7 @@
     "format": "prettier --write .",
     "prepare": "husky install",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
     "export": "next build",
     "deploy": "npm run export && firebase deploy",

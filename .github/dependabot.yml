@@ -1,0 +1,24 @@
+# .github/dependabot.yml
+# Basic Dependabot configuration for npm
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    # Look for `package.json` and `lock` files in the root directory
+    directory: "/"
+    # Check for updates weekly
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    # Add a label to Dependabot PRs for easy identification
+    labels:
+      - "dependencies"
+    # Group non-major updates together to reduce noise
+    groups:
+      # Group patch and minor updates for all dependencies
+      "non-major":
+        dependency-type: "all"
+        update-types:
+          - "patch"
+          - "minor"
